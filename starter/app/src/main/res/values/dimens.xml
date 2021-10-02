@@ -2,4 +2,9 @@
     <dimen name="fab_margin">16dp</dimen>
 
     <dimen name="default_text_size">20sp</dimen>
+    <dimen name="global_padding">16dp</dimen>
+    <dimen name="radiobtn_margin">24dp</dimen>
+    <dimen name="rb_textsize">24sp</dimen>
+    <dimen name="global_margin">24dp</dimen>
+    <dimen name="label_ts">20sp</dimen>
 </resources>

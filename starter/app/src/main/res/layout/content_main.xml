@@ -9,6 +9,49 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <ImageView
+        android:id="@+id/download_img"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_cloud"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/download_content_desc" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/global_padding"
+        app:layout_constraintTop_toBottomOf="@+id/download_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/glide_download_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/radiobtn_margin"
+            android:text="@string/glide_download"
+            android:textSize="@dimen/rb_textsize" />
+
+        <RadioButton
+            android:id="@+id/load_app_download_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/radiobtn_margin"
+            android:text="@string/load_app_download"
+            android:textSize="@dimen/rb_textsize"/>
+
+        <RadioButton
+            android:id="@+id/retrofit_download_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/retrofit_download"
+            android:textSize="@dimen/rb_textsize"/>
+    </RadioGroup>
+
     <com.udacity.LoadingButton
         android:id="@+id/custom_button"
         android:layout_width="0dp"
@@ -16,7 +59,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_height="60dp"
         android:layout_margin="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:text="@string/button_name"
+        app:text_loading="@string/button_loading"
+        app:text_color="@color/white"
+        app:bg_color="@color/colorPrimary"
+        app:loading_bg_color="@color/cardview_shadow_start_color"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

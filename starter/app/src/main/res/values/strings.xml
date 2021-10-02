@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ND940C3-Project</string>
+    <string name="app_name">LoadApp</string>
     <string name="app_description">Download files from Internet</string>
     <string name="action_settings">Settings</string>
 
@@ -11,4 +11,18 @@
     <string name="button_name">Click me</string>
     <string name="button_loading">We are loading </string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="download_content_desc">Download file image</string>
+    <string name="glide_download">Glide - Image Binding library</string>
+    <string name="load_app_download">LoadApp - current repository</string>
+    <string name="retrofit_download">Retrofit - Type-safe http client for android app</string>
+    <string name="empty_link">Please select the file to download</string>
+    <string name="channelName" translatable="false">Downloaded</string>
+    <string name="channel_description">File loading status</string>
+    <string name="status_success">Success</string>
+    <string name="status_failed">Fail</string>
+    <string name="file_name">File name:</string>
+    <string name="status">Status:</string>
+    <string name="ok">OK</string>
+    <string name="file_name_param">fileName</string>
+    <string name="status_param">status</string>
 </resources>
